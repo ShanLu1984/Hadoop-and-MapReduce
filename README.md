@@ -45,7 +45,7 @@ hadoop fs -put access_log myinput
 3. Make corresponding changes to mapper.py and reducer.py according to the Quiz questions
 4. To test your python code, make a small testfile
 ```
-head 100 ../data/access_log > testfile
+head -100 ../data/access_log > testfile
 ```
 and using pipline to test
 ```
